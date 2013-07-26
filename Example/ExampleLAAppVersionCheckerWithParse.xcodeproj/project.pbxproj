@@ -1,0 +1,551 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		17C415D617A26D2200450DA6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 17C415D517A26D2200450DA6 /* UIKit.framework */; };
+		17C415D817A26D2200450DA6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 17C415D717A26D2200450DA6 /* Foundation.framework */; };
+		17C415DA17A26D2200450DA6 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 17C415D917A26D2200450DA6 /* CoreGraphics.framework */; };
+		17C415E017A26D2200450DA6 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 17C415DE17A26D2200450DA6 /* InfoPlist.strings */; };
+		17C415E217A26D2200450DA6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 17C415E117A26D2200450DA6 /* main.m */; };
+		17C415E617A26D2200450DA6 /* LAAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 17C415E517A26D2200450DA6 /* LAAppDelegate.m */; };
+		17C415E817A26D2300450DA6 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 17C415E717A26D2300450DA6 /* Default.png */; };
+		17C415EA17A26D2300450DA6 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 17C415E917A26D2300450DA6 /* Default@2x.png */; };
+		17C415EC17A26D2300450DA6 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 17C415EB17A26D2300450DA6 /* Default-568h@2x.png */; };
+		17C415EF17A26D2300450DA6 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 17C415ED17A26D2300450DA6 /* MainStoryboard.storyboard */; };
+		17C415F217A26D2300450DA6 /* LAViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 17C415F117A26D2300450DA6 /* LAViewController.m */; };
+		17C415FA17A26D2300450DA6 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 17C415F917A26D2300450DA6 /* SenTestingKit.framework */; };
+		17C415FB17A26D2300450DA6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 17C415D517A26D2200450DA6 /* UIKit.framework */; };
+		17C415FC17A26D2300450DA6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 17C415D717A26D2200450DA6 /* Foundation.framework */; };
+		17C4160417A26D2300450DA6 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 17C4160217A26D2300450DA6 /* InfoPlist.strings */; };
+		17C4160717A26D2300450DA6 /* ExampleLAAppVersionCheckerWithParseTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 17C4160617A26D2300450DA6 /* ExampleLAAppVersionCheckerWithParseTests.m */; };
+		88BB492094674C41A8BE3047 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7984D50FE59F42EFB3B24072 /* libPods.a */; };
+		A5A69ED1EF6D4ED9B43DD08A /* libPods-ExampleLAAppVersionCheckerWithParseTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E937DB7B168342909CA3831D /* libPods-ExampleLAAppVersionCheckerWithParseTests.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		17C415FD17A26D2300450DA6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 17C415CA17A26D2200450DA6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 17C415D117A26D2200450DA6;
+			remoteInfo = ExampleLAAppVersionCheckerWithParse;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		17C415D217A26D2200450DA6 /* ExampleLAAppVersionCheckerWithParse.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ExampleLAAppVersionCheckerWithParse.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		17C415D517A26D2200450DA6 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		17C415D717A26D2200450DA6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		17C415D917A26D2200450DA6 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		17C415DD17A26D2200450DA6 /* ExampleLAAppVersionCheckerWithParse-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ExampleLAAppVersionCheckerWithParse-Info.plist"; sourceTree = "<group>"; };
+		17C415DF17A26D2200450DA6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		17C415E117A26D2200450DA6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		17C415E317A26D2200450DA6 /* ExampleLAAppVersionCheckerWithParse-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ExampleLAAppVersionCheckerWithParse-Prefix.pch"; sourceTree = "<group>"; };
+		17C415E417A26D2200450DA6 /* LAAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LAAppDelegate.h; sourceTree = "<group>"; };
+		17C415E517A26D2200450DA6 /* LAAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LAAppDelegate.m; sourceTree = "<group>"; };
+		17C415E717A26D2300450DA6 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		17C415E917A26D2300450DA6 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		17C415EB17A26D2300450DA6 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		17C415EE17A26D2300450DA6 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		17C415F017A26D2300450DA6 /* LAViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LAViewController.h; sourceTree = "<group>"; };
+		17C415F117A26D2300450DA6 /* LAViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LAViewController.m; sourceTree = "<group>"; };
+		17C415F817A26D2300450DA6 /* ExampleLAAppVersionCheckerWithParseTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ExampleLAAppVersionCheckerWithParseTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		17C415F917A26D2300450DA6 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		17C4160117A26D2300450DA6 /* ExampleLAAppVersionCheckerWithParseTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ExampleLAAppVersionCheckerWithParseTests-Info.plist"; sourceTree = "<group>"; };
+		17C4160317A26D2300450DA6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		17C4160517A26D2300450DA6 /* ExampleLAAppVersionCheckerWithParseTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ExampleLAAppVersionCheckerWithParseTests.h; sourceTree = "<group>"; };
+		17C4160617A26D2300450DA6 /* ExampleLAAppVersionCheckerWithParseTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ExampleLAAppVersionCheckerWithParseTests.m; sourceTree = "<group>"; };
+		7984D50FE59F42EFB3B24072 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		B58823878D0542988CE7C935 /* Pods-ExampleLAAppVersionCheckerWithParseTests.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ExampleLAAppVersionCheckerWithParseTests.xcconfig"; path = "Pods/Pods-ExampleLAAppVersionCheckerWithParseTests.xcconfig"; sourceTree = SOURCE_ROOT; };
+		BEC12159E2374A2EB51BEF1E /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = SOURCE_ROOT; };
+		E937DB7B168342909CA3831D /* libPods-ExampleLAAppVersionCheckerWithParseTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ExampleLAAppVersionCheckerWithParseTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		17C415CF17A26D2200450DA6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17C415D617A26D2200450DA6 /* UIKit.framework in Frameworks */,
+				17C415D817A26D2200450DA6 /* Foundation.framework in Frameworks */,
+				17C415DA17A26D2200450DA6 /* CoreGraphics.framework in Frameworks */,
+				88BB492094674C41A8BE3047 /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		17C415F417A26D2300450DA6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17C415FA17A26D2300450DA6 /* SenTestingKit.framework in Frameworks */,
+				17C415FB17A26D2300450DA6 /* UIKit.framework in Frameworks */,
+				17C415FC17A26D2300450DA6 /* Foundation.framework in Frameworks */,
+				A5A69ED1EF6D4ED9B43DD08A /* libPods-ExampleLAAppVersionCheckerWithParseTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		17C415C917A26D2200450DA6 = {
+			isa = PBXGroup;
+			children = (
+				17C415DB17A26D2200450DA6 /* ExampleLAAppVersionCheckerWithParse */,
+				17C415FF17A26D2300450DA6 /* ExampleLAAppVersionCheckerWithParseTests */,
+				17C415D417A26D2200450DA6 /* Frameworks */,
+				17C415D317A26D2200450DA6 /* Products */,
+				BEC12159E2374A2EB51BEF1E /* Pods.xcconfig */,
+				B58823878D0542988CE7C935 /* Pods-ExampleLAAppVersionCheckerWithParseTests.xcconfig */,
+			);
+			sourceTree = "<group>";
+		};
+		17C415D317A26D2200450DA6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				17C415D217A26D2200450DA6 /* ExampleLAAppVersionCheckerWithParse.app */,
+				17C415F817A26D2300450DA6 /* ExampleLAAppVersionCheckerWithParseTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		17C415D417A26D2200450DA6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				17C415D517A26D2200450DA6 /* UIKit.framework */,
+				17C415D717A26D2200450DA6 /* Foundation.framework */,
+				17C415D917A26D2200450DA6 /* CoreGraphics.framework */,
+				17C415F917A26D2300450DA6 /* SenTestingKit.framework */,
+				7984D50FE59F42EFB3B24072 /* libPods.a */,
+				E937DB7B168342909CA3831D /* libPods-ExampleLAAppVersionCheckerWithParseTests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		17C415DB17A26D2200450DA6 /* ExampleLAAppVersionCheckerWithParse */ = {
+			isa = PBXGroup;
+			children = (
+				17C415E417A26D2200450DA6 /* LAAppDelegate.h */,
+				17C415E517A26D2200450DA6 /* LAAppDelegate.m */,
+				17C415ED17A26D2300450DA6 /* MainStoryboard.storyboard */,
+				17C415F017A26D2300450DA6 /* LAViewController.h */,
+				17C415F117A26D2300450DA6 /* LAViewController.m */,
+				17C415DC17A26D2200450DA6 /* Supporting Files */,
+			);
+			path = ExampleLAAppVersionCheckerWithParse;
+			sourceTree = "<group>";
+		};
+		17C415DC17A26D2200450DA6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				17C415DD17A26D2200450DA6 /* ExampleLAAppVersionCheckerWithParse-Info.plist */,
+				17C415DE17A26D2200450DA6 /* InfoPlist.strings */,
+				17C415E117A26D2200450DA6 /* main.m */,
+				17C415E317A26D2200450DA6 /* ExampleLAAppVersionCheckerWithParse-Prefix.pch */,
+				17C415E717A26D2300450DA6 /* Default.png */,
+				17C415E917A26D2300450DA6 /* Default@2x.png */,
+				17C415EB17A26D2300450DA6 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		17C415FF17A26D2300450DA6 /* ExampleLAAppVersionCheckerWithParseTests */ = {
+			isa = PBXGroup;
+			children = (
+				17C4160517A26D2300450DA6 /* ExampleLAAppVersionCheckerWithParseTests.h */,
+				17C4160617A26D2300450DA6 /* ExampleLAAppVersionCheckerWithParseTests.m */,
+				17C4160017A26D2300450DA6 /* Supporting Files */,
+			);
+			path = ExampleLAAppVersionCheckerWithParseTests;
+			sourceTree = "<group>";
+		};
+		17C4160017A26D2300450DA6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				17C4160117A26D2300450DA6 /* ExampleLAAppVersionCheckerWithParseTests-Info.plist */,
+				17C4160217A26D2300450DA6 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		17C415D117A26D2200450DA6 /* ExampleLAAppVersionCheckerWithParse */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 17C4160A17A26D2300450DA6 /* Build configuration list for PBXNativeTarget "ExampleLAAppVersionCheckerWithParse" */;
+			buildPhases = (
+				B87496108D3541D0B53260C4 /* Check Pods Manifest.lock */,
+				17C415CE17A26D2200450DA6 /* Sources */,
+				17C415CF17A26D2200450DA6 /* Frameworks */,
+				17C415D017A26D2200450DA6 /* Resources */,
+				EFD29D8DC4E140E28C6F950F /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ExampleLAAppVersionCheckerWithParse;
+			productName = ExampleLAAppVersionCheckerWithParse;
+			productReference = 17C415D217A26D2200450DA6 /* ExampleLAAppVersionCheckerWithParse.app */;
+			productType = "com.apple.product-type.application";
+		};
+		17C415F717A26D2300450DA6 /* ExampleLAAppVersionCheckerWithParseTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 17C4160D17A26D2300450DA6 /* Build configuration list for PBXNativeTarget "ExampleLAAppVersionCheckerWithParseTests" */;
+			buildPhases = (
+				6F593F102EE845789F302650 /* Check Pods Manifest.lock */,
+				17C415F317A26D2300450DA6 /* Sources */,
+				17C415F417A26D2300450DA6 /* Frameworks */,
+				17C415F517A26D2300450DA6 /* Resources */,
+				17C415F617A26D2300450DA6 /* ShellScript */,
+				58109918F5544ECF924E342B /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				17C415FE17A26D2300450DA6 /* PBXTargetDependency */,
+			);
+			name = ExampleLAAppVersionCheckerWithParseTests;
+			productName = ExampleLAAppVersionCheckerWithParseTests;
+			productReference = 17C415F817A26D2300450DA6 /* ExampleLAAppVersionCheckerWithParseTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		17C415CA17A26D2200450DA6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = LA;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Lilly Apps";
+			};
+			buildConfigurationList = 17C415CD17A26D2200450DA6 /* Build configuration list for PBXProject "ExampleLAAppVersionCheckerWithParse" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 17C415C917A26D2200450DA6;
+			productRefGroup = 17C415D317A26D2200450DA6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				17C415D117A26D2200450DA6 /* ExampleLAAppVersionCheckerWithParse */,
+				17C415F717A26D2300450DA6 /* ExampleLAAppVersionCheckerWithParseTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		17C415D017A26D2200450DA6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17C415E017A26D2200450DA6 /* InfoPlist.strings in Resources */,
+				17C415E817A26D2300450DA6 /* Default.png in Resources */,
+				17C415EA17A26D2300450DA6 /* Default@2x.png in Resources */,
+				17C415EC17A26D2300450DA6 /* Default-568h@2x.png in Resources */,
+				17C415EF17A26D2300450DA6 /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		17C415F517A26D2300450DA6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17C4160417A26D2300450DA6 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		17C415F617A26D2300450DA6 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+		58109918F5544ECF924E342B /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-ExampleLAAppVersionCheckerWithParseTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6F593F102EE845789F302650 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		B87496108D3541D0B53260C4 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		EFD29D8DC4E140E28C6F950F /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		17C415CE17A26D2200450DA6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17C415E217A26D2200450DA6 /* main.m in Sources */,
+				17C415E617A26D2200450DA6 /* LAAppDelegate.m in Sources */,
+				17C415F217A26D2300450DA6 /* LAViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		17C415F317A26D2300450DA6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17C4160717A26D2300450DA6 /* ExampleLAAppVersionCheckerWithParseTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		17C415FE17A26D2300450DA6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 17C415D117A26D2200450DA6 /* ExampleLAAppVersionCheckerWithParse */;
+			targetProxy = 17C415FD17A26D2300450DA6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		17C415DE17A26D2200450DA6 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				17C415DF17A26D2200450DA6 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		17C415ED17A26D2300450DA6 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				17C415EE17A26D2300450DA6 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+		17C4160217A26D2300450DA6 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				17C4160317A26D2300450DA6 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		17C4160817A26D2300450DA6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		17C4160917A26D2300450DA6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		17C4160B17A26D2300450DA6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BEC12159E2374A2EB51BEF1E /* Pods.xcconfig */;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ExampleLAAppVersionCheckerWithParse/ExampleLAAppVersionCheckerWithParse-Prefix.pch";
+				INFOPLIST_FILE = "ExampleLAAppVersionCheckerWithParse/ExampleLAAppVersionCheckerWithParse-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		17C4160C17A26D2300450DA6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BEC12159E2374A2EB51BEF1E /* Pods.xcconfig */;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ExampleLAAppVersionCheckerWithParse/ExampleLAAppVersionCheckerWithParse-Prefix.pch";
+				INFOPLIST_FILE = "ExampleLAAppVersionCheckerWithParse/ExampleLAAppVersionCheckerWithParse-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		17C4160E17A26D2300450DA6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B58823878D0542988CE7C935 /* Pods-ExampleLAAppVersionCheckerWithParseTests.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ExampleLAAppVersionCheckerWithParse.app/ExampleLAAppVersionCheckerWithParse";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ExampleLAAppVersionCheckerWithParse/ExampleLAAppVersionCheckerWithParse-Prefix.pch";
+				INFOPLIST_FILE = "ExampleLAAppVersionCheckerWithParseTests/ExampleLAAppVersionCheckerWithParseTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		17C4160F17A26D2300450DA6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B58823878D0542988CE7C935 /* Pods-ExampleLAAppVersionCheckerWithParseTests.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ExampleLAAppVersionCheckerWithParse.app/ExampleLAAppVersionCheckerWithParse";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ExampleLAAppVersionCheckerWithParse/ExampleLAAppVersionCheckerWithParse-Prefix.pch";
+				INFOPLIST_FILE = "ExampleLAAppVersionCheckerWithParseTests/ExampleLAAppVersionCheckerWithParseTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		17C415CD17A26D2200450DA6 /* Build configuration list for PBXProject "ExampleLAAppVersionCheckerWithParse" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				17C4160817A26D2300450DA6 /* Debug */,
+				17C4160917A26D2300450DA6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		17C4160A17A26D2300450DA6 /* Build configuration list for PBXNativeTarget "ExampleLAAppVersionCheckerWithParse" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				17C4160B17A26D2300450DA6 /* Debug */,
+				17C4160C17A26D2300450DA6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		17C4160D17A26D2300450DA6 /* Build configuration list for PBXNativeTarget "ExampleLAAppVersionCheckerWithParseTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				17C4160E17A26D2300450DA6 /* Debug */,
+				17C4160F17A26D2300450DA6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 17C415CA17A26D2200450DA6 /* Project object */;
+}

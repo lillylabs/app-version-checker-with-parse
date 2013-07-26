@@ -1,0 +1,9 @@
+platform :ios
+
+pod "LAAppVersionCheckerWithParse", :path => "../"
+
+podspec :path => "../LAAppVersionCheckerWithParse.podspec"
+
+target :ExampleLAAppVersionCheckerWithParseTests do
+  pod "LAAppVersionCheckerWithParse"
+end
