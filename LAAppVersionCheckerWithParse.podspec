@@ -19,5 +19,5 @@ Pod::Spec.new do |s|
   s.source_files = "Classes/LAAppVersionCheckerWithParse.{m,h}"
   s.xcconfig = { 'HEADER_SEARCH_PATHS' => '"$(PODS_ROOT)/Parse/Parse.framework/Headers"' }
   s.dependency 'Parse'
-  s.preserve_path = "LAAppVersionCheckerWithParse-Localizable.strings"
+  s.preserve_path = "Resources/LAAppVersionCheckerWithParse-Localizable.strings"
 end
