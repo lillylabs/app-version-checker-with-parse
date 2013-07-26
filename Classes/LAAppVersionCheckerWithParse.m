@@ -51,18 +51,20 @@
     
 }
 
+#define fLocalizedStringTableName @"LAAppVersionCheckerWithParse-Localizable"
+
 - (void)showUpdateAlertRequired: (BOOL)required {
     if(!self.updateAlertView) {
         NSString *cancelButtonTitle = nil;
         if (!required)
-            cancelButtonTitle = @"Cancel";
+            cancelButtonTitle = NSLocalizedStringFromTable(@"Cancel", fLocalizedStringTableName, @"Alert cancel button text");
         
         self.updateAlertView = [[UIAlertView alloc]
-                           initWithTitle:@"Update available"
-                           message:@"There is a newer version of the app available in App Store!"
-                           delegate:self
-                           cancelButtonTitle:cancelButtonTitle
-                           otherButtonTitles:@"Update now", nil];
+                                initWithTitle:NSLocalizedStringFromTable(@"Update available", fLocalizedStringTableName, @"Alert header text")
+                                message:NSLocalizedStringFromTable(@"There is a newer version of the app available in App Store!", fLocalizedStringTableName, @"Alert message text")
+                                delegate:self
+                                cancelButtonTitle:cancelButtonTitle
+                                otherButtonTitles:NSLocalizedStringFromTable(@"Update now", fLocalizedStringTableName, @"Alert update button text"), nil];
         
         [self.updateAlertView show];
     }
