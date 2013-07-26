@@ -10,11 +10,11 @@
 
 Pod::Spec.new do |s|
   s.name         =  'LAAppVersionCheckerWithParse'
-  s.version      =  '0.1.3'
+  s.version      =  '0.1.4'
   s.license      =  { :type => 'MIT', :file => 'LICENSE' }
   s.homepage     =  'http://labs.lillyapps.no'
   s.authors      =  { 'Tom Erik Støwer' => 'tomerik@tomerikstower.com' }
-  s.source       =  { :git => 'git@bitbucket.org/testower/lilly-apps-appversioncheckerwithparse.git', :tag => s.version.to_s }
+  s.source       =  { :git => 'git@bitbucket.org:lillyapps/lilly-apps-appversioncheckerwithparse.git', :tag => s.version.to_s }
   s.summary      =  'Check current app version for a list of available versions maintained in a Parse-app table.'
   s.source_files = "Classes/LAAppVersionCheckerWithParse.{m,h}"
   s.xcconfig = { 'HEADER_SEARCH_PATHS' => '"$(PODS_ROOT)/Parse/Parse.framework/Headers"' }
