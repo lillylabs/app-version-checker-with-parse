@@ -45,7 +45,16 @@
                                if([[result objectForKey:@"updateRequired"] boolValue]) {
                                    required = YES;
                                }
-                               [self showUpdateAlertRequired:required];
+                               NSString *availableVersion = [result objectForKey:@"availableVersion"];
+                               NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
+                               if (!required
+                                   && [[defaults objectForKey:@"availableAppVersionChecked"] isEqual: availableVersion]) {
+                                   // version is not required and user has already been notified about this version
+                               } else {
+                                   [self showUpdateAlertRequired:required];
+                                   [defaults setObject:availableVersion forKey:@"availableAppVersionChecked"];
+                               }
+
                            }
                        }];
     

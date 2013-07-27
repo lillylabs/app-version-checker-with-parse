@@ -10,7 +10,7 @@
 
 Pod::Spec.new do |s|
   s.name         =  'LAAppVersionCheckerWithParse'
-  s.version      =  '0.1.4'
+  s.version      =  '0.1.5'
   s.license      =  { :type => 'MIT', :file => 'LICENSE' }
   s.homepage     =  'http://labs.lillyapps.no'
   s.authors      =  { 'Tom Erik Støwer' => 'tomerik@tomerikstower.com' }
