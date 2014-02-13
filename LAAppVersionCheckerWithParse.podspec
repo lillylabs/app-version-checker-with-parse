@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         =  'LAAppVersionCheckerWithParse'
-  s.version      =  '0.1.5'
+  s.version      =  '0.1.6'
   s.summary      =  'Check current app version for a list of available versions maintained in a Parse-app table.'
   s.homepage     =  'http://labs.lillyapps.no'
   s.license      = 'MIT'
