@@ -1,6 +1,7 @@
 platform :ios
 
-pod "LAAppVersionCheckerWithParse", :path => "../"
+pod "LAAppVersionCheckerWithParse", :path => "../LAAppVersionCheckerWithParse.podspec"
+inhibit_all_warnings!
 
 podspec :path => "../LAAppVersionCheckerWithParse.podspec"
 
