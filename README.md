@@ -28,3 +28,7 @@ Open Finder and go to the Pods root folder. There is a generated localization fi
     LAAppVersionCheckerWithParse/Resources/LAAppVersionCheckerWithParse-Localizable.strings
 
 You may copy this into your main project and customize the texts there.
+
+## Parse.com requirements
+
+Create a class named ``AppVersion`` with the columns ``version`` and ``required``.
