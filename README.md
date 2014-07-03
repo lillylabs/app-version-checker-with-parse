@@ -31,4 +31,4 @@ You may copy this into your main project and customize the texts there.
 
 ## Parse.com requirements
 
-The pod requires a class named ``AppVersion`` with the columns ``version`` and ``required`` in Parse. Set ``required`` to ``true`` when you want to force the user to update the app.
+The pod requires a class named ``AppVersion`` with the columns ``version`` (String) and ``required`` (Boolean) in Parse. Set ``required`` to ``true`` when you want to force the user to update the app.
